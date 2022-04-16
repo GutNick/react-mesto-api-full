@@ -1,4 +1,5 @@
 export const BASE_URL = "https://api.mesto.gutman.nomoredomains.work";
+// export const BASE_URL = "http://localhost:3001";
 
 function handleRes(res) {
   if (res.ok) {
