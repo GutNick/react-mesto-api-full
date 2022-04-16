@@ -12,7 +12,7 @@ const auth = require('./middlewares/auth');
 const NotFoundError = require('./errors/not-found-err');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
-const { PORT = 3001 } = process.env; // eslint-disable-line no-unused-vars
+const { PORT = 3000 } = process.env; // eslint-disable-line no-unused-vars
 const app = express();
 
 mongoose.connect('mongodb://localhost:27017/mestodb');
