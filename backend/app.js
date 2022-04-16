@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(requestLogger);
 
-app.use(cors());
+app.use(cors({ credentials: true, origin: true }));
 
 app.get('/crash-test', () => {
   setTimeout(() => {

@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/GutNick/express-mesto-gha/issues"
   },
-  "homepage": "https://github.com/GutNick/express-mesto-gha#readme",
+  "homepage": "https://api.mesto.gutman.nomoredomains.work/",
   "devDependencies": {
     "eslint": "^8.9.0",
     "eslint-config-airbnb-base": "^15.0.0",
