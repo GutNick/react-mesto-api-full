@@ -1,0 +1,12 @@
+.element__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 30px 32px 21px;
+    position: relative;
+}
+
+@media (max-width: 620px) {
+    .element__wrapper {
+        margin: 21px 19px 25px 21px;
+    }
+}
